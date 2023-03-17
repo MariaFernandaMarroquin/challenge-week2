@@ -1,0 +1,193 @@
+* {
+    margin:0;
+    padding:0;  
+  }
+
+body {
+    background-color: #e4ebf0;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    background-color: #536d88;
+    position: relative;
+}
+
+li {
+    display: inline;
+    padding: 0px 15px;
+    font-family: helvetica, arial, san-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: underline;
+    color: #c7ede8;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: #536d88;
+    font-size: 16px;
+    color: #c7ede8;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+h2 {
+    display: flex;
+    font-size: 40px;
+    justify-content: right;
+    padding: 50px 10px 50px 25px;
+    color: #536d88;
+    border-right: solid #536d88;
+    margin: 20px 10px 20px 0px;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: flex-start;
+    padding: 0;
+    color: black;
+    margin: 20px 30px 0px 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 30px 0px 15px;
+}
+
+.flex-item1 {
+    border: 3px solid #c7ede8;
+    height: 300px;
+    width: 950px;
+    flex-basis: 1 0 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    background-size: 100%;
+    background-position: center;
+    transition: 3s;
+    background-blend-mode: soft-light;
+}
+
+.flex-item1:hover {
+    background-color: gray;
+}
+
+
+.flex-item2 {
+    margin: 10px 10px 10px 0;
+    border: 3px solid #c7ede8;
+    height: 100px;
+    width: 470px;
+    flex-basis: 1 0 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    background-size: 100%;
+    background-position: center;
+    transition: 3s;
+    background-blend-mode: soft-light;
+}
+
+.flex-item2:hover {
+    background-color: gray;
+}
+
+.textBox {
+    background-color: #c7ede8;
+    color: #536d88;
+    padding: 10px;
+    
+}
+
+.container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 20px 30px 0px 15px;
+    align-items: center;
+}
+
+.flex-items-contact {
+    margin: 10px 100px 10px 0;
+    color: #536d88;
+    display: flex;
+    padding: 0;
+    font-size: 24px;
+    text-decoration: none;   
+}
+
+/* Back-ground Images */
+
+.img1 {
+    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/first-project.jpg);
+}
+
+.img2 {
+    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/second-project.jpg);
+}
+
+.img3 {
+    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/third-project.jpg);
+}
+
+.img4 {
+    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/fourth-project.jpg);
+
+}
+
+.img5 {
+    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/fifth-project.jpg);
+}
+
+
+#main-header {
+    position: absolute;
+    top: 15px;
+    line-height: normal;
+    background-color: #c7ede8;
+    color: #536d88;
+    padding: 5px 5px 5px 150px;
+}
+
+#img-header {
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    line-height: normal;
+    background-color: #c7ede8;
+    color: #536d88;
+    padding: 5px;
+}
+
