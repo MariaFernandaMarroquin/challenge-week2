@@ -151,24 +151,24 @@ h2 {
 /* Back-ground Images */
 
 .img1 {
-    background-image: url("../first-project.jpg");
+    background-image: url("../assets/first-project.jpg");
 }
 
 .img2 {
-    background-image: url("../second-project.jpg");
+    background-image: url("../assets/second-project.jpg");
 }
 
 .img3 {
-    background-image: url("../third-project.jpg");
+    background-image: url("../assets/third-project.jpg");
 }
 
 .img4 {
-    background-image: url("../fourth-project.jpg");
+    background-image: url("../assets/fourth-project.jpg");
 
 }
 
 .img5 {
-    background-image: url("../fifth-project.jpg");
+    background-image: url("../assets/fifth-project.jpg");
 }
 
 
