@@ -151,24 +151,24 @@ h2 {
 /* Back-ground Images */
 
 .img1 {
-    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/first-project.jpg);
+    background-image: url("/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/first-project.jpg");
 }
 
 .img2 {
-    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/second-project.jpg);
+    background-image: url("/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/second-project.jpg");
 }
 
 .img3 {
-    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/third-project.jpg);
+    background-image: url("/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/third-project.jpg");
 }
 
 .img4 {
-    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/fourth-project.jpg);
+    background-image: url("/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/fourth-project.jpg");
 
 }
 
 .img5 {
-    background-image: url(/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/fifth-project.jpg);
+    background-image: url("/Users/MariaFernanda/Bootcamp/semana2/challenge2/assets/fifth-project.jpg");
 }
 
 
